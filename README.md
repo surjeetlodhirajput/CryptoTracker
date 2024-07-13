@@ -33,7 +33,7 @@ To get all symbols list, visit: http://localhost:3000/symbols
 To get top records for a particular cryptocurrency, visit: http://localhost:3000/records/{symbol}
 
 
-##FrontEnd
+## FrontEnd
  A simple React + TypeScript  application that Fetch the most recent 20 real-time data entries from the mongoDB database for a particular stock or crypto and display that in a table.
 
 ### Prerequisites
