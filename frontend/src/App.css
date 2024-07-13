@@ -1,0 +1,128 @@
+/* CryptoTable.css */
+
+.table-container {
+  width: 100%;
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+thead {
+  background-color: #4CAF50;
+  color: white;
+}
+
+th, td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+td {
+  color: #333;
+}
+
+.color-cell {
+  width: 50px;
+  height: 20px;
+  border-radius: 4px;
+}
+.crypto-logo{
+  border-radius: 50%;
+}
+.header-block{
+  display: flex;
+  flex-direction: row;
+  gap: 10%;
+}
+button{
+  height: 50px;
+  width: 200px;
+  border-radius: 5px;
+  background: #354bdc;
+  border: none;
+  font-size: 19px;
+  font-family: sans-serif;
+  font-weight: 800;
+  cursor: pointer;
+}
+button:hover{
+  background: #4a5fec;
+}
+.modal{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 300px;
+  height: 200px;
+  background: #ede9e9;
+  display: flex;
+  flex-direction: row;
+  box-shadow: 0 0 20px #9f9f9f;
+  text-align: center;
+}
+.modal button{
+  height:40px;
+  width: 130px;
+}
+.modal-content{
+  width: 100%;
+}
+.btn-grp{
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  position: absolute;
+  bottom: 10px;
+  align-items: center;
+  justify-content: center;
+  padding-left: 20px;
+}
+select{
+  width: 80%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+  color: #333;
+  appearance: none; /* Remove default arrow */
+  outline: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+.close{
+  background: #eeeeee;
+}
+.close:active{
+  background: #dfdfdf;
+  box-shadow:  0 0 5px #6f6f6f;
+}
+.close:hover{
+  background: #e6e5e5;
+}
+.submit:active{
+background: #1633f2;
+}
+img{
+  animation: 2s circle-round 1 ease-out;
+}
+@keyframes circle-round {
+  0%{
+    transform: rotate(45deg);
+  }
+  50%{
+    transform: rotate(90deg);
+  }
+
+  99%{
+    transform: rotate(345deg);
+  }
+}
